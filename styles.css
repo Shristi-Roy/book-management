@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ff6f61;
+    color: white;
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Main Section */
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 1.5rem;
+}
+
+/* Form Section */
+#add-book-section h2,
+#book-list-section h2 {
+    color: #ff6f61;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    background: #fdfdfd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #555;
+}
+
+form input,
+form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+form input:focus {
+    border-color: #ff6f61;
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 111, 97, 0.4);
+}
+
+form button {
+    background-color: #ff6f61;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+form button:hover {
+    background-color: #ff3e30;
+}
+
+/* Search Bar */
+#search {
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Book List */
+#book-list {
+    list-style: none;
+    padding: 0;
+}
+
+#book-list li {
+    background: #fefefe;
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#book-list li span {
+    font-weight: bold;
+    color: #555;
+}
+
+#book-list li button {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    padding: 5px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-left: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#book-list li button:hover {
+    background-color: #ff3e30;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
